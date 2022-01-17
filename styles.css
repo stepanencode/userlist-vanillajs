@@ -1,0 +1,129 @@
+html {
+  color: #1c2e36;
+  font-family: 'helvetica neue', helvetica, arial, sans-serif;
+}
+
+#container {
+  align-content: center;
+  align-items: center;
+  display: flex;
+  justify-content: center; 
+  margin: 0 50px;
+}
+
+/* Table */
+
+table {
+  border: 1px solid #5e9ab6;
+  border-collapse: collapse;
+  box-shadow: 10px 10px 12px gainsboro;
+  margin: 20px auto;
+  table-layout: fixed;
+  width: 100%;
+}
+
+thead {
+  background: #3b5998;
+  color: white;
+}
+
+thead th:nth-child(1) {
+  width: 50%;
+}
+
+thead th:nth-child(2) {
+  width: 30%;
+}
+
+thead th:nth-child(3) {
+  width: 20%;
+}
+
+tbody td,
+p {
+  text-align: center;
+}
+
+td,
+th {
+  border: 1px solid #5e9ab6;
+  padding: 20px;
+}
+
+/* List */
+
+ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  list-style:none;  
+  margin: 0;
+}
+
+li {
+  background:white;
+  border: 5px solid #3b5998;
+  border-radius: 4px;
+  box-shadow: 10px 5px 12px gainsboro;
+  flex: 1;
+  height: 300px;
+  margin: 20px;
+  max-width: 300px;
+  min-width: 300px;
+  text-align: center;
+}
+
+li:hover {
+  box-shadow: 10px 10px 12px gainsboro;
+  background: #3b5998;
+  border: 5px solid white;
+
+}
+
+li:hover,
+li:hover a {
+color: white;
+}
+
+a {
+  display: block;
+}
+
+p,
+li a {
+  margin-top: 50px;
+}
+
+p {
+  font-weight: 700;
+}
+
+/* Buttons */
+
+button {
+  background-color: white;
+  border: 2px solid #3b5998;
+  border-radius: 8px;
+  box-shadow: 10px 5px 12px gainsboro;
+  color: black;
+  display: inline-block;
+  font-size: 16px;
+  margin-right: 10px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+}
+
+button:hover {
+  background-color: #3b5998;
+  box-shadow: 10px 10px 12px gainsboro;
+  color: white;
+}
+
+
+/* Display */
+
+#list {
+  display: none;
+}
